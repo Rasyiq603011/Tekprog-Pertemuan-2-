@@ -42,26 +42,58 @@ public class Datatype {
             System.out.println("==> Long");
         } 
         else if ((cek.compareTo(BigInteger.valueOf(Short.MIN_VALUE)) >= 0) && 
-                (cek.compareTo(BigInteger.valueOf(Short.MAX_VALUE)) <= 0)) {
+                (cek.compareTo(BigInteger.valueOf(Short.MAX_VALUE)) <= 0)) 
+        {
             System.out.println(cek + " dapat ditampung pada tipe data:");
             System.out.println("==> Short");
             System.out.println("==> Integer");
             System.out.println("==> Long");
         } 
         else if ((cek.compareTo(BigInteger.valueOf(Integer.MIN_VALUE)) >= 0) && 
-                (cek.compareTo(BigInteger.valueOf(Integer.MAX_VALUE)) <= 0)) {
+                (cek.compareTo(BigInteger.valueOf(Integer.MAX_VALUE)) <= 0)) 
+        {
             System.out.println(cek + " dapat ditampung pada tipe data:");
             System.out.println("==> Integer");
             System.out.println("==> Long");
         } 
         else if ((cek.compareTo(BigInteger.valueOf(Long.MIN_VALUE)) >= 0) && 
-                (cek.compareTo(BigInteger.valueOf(Long.MAX_VALUE)) <= 0)) {
+                (cek.compareTo(BigInteger.valueOf(Long.MAX_VALUE)) <= 0)) 
+        {
             System.out.println(cek + " dapat ditampung pada tipe data:");
             System.out.println("==> Long");
         } 
-        else {
+        else 
+        {
             System.out.println(cek + " can't be fitted anywhere");
         }
 
+        // if ((cek >= Byte.MIN_VALUE) && (cek <= Byte.MAX_VALUE)){
+        //     System.out.println(cek + " dapat ditampung pada tipe data :");
+        //     System.out.println("==> Byte");
+        //     System.out.println("==> Short");
+        //     System.out.println("==> Integer");
+        //     System.out.println("==> Long");
+        // } 
+        // else if((cek >= Short.MIN_VALUE) && (cek <= Short.MAX_VALUE)){
+        //     System.out.println( cek + " dapat ditampung pada tipe data :");
+        //     System.out.println("==> Short");
+        //     System.out.println("==> Integer");
+        //     System.out.println("==> Long");
+    
+        // }
+        // else if((cek >= Integer.MIN_VALUE) && (cek <= Integer.MAX_VALUE)){
+        //     System.out.println( cek +" dapat ditampung pada tipe data :");
+        //     System.out.println("==> Integer");
+        //     System.out.println("==> Long");
+    
+        // }
+        // else if((cek >= Long.MIN_VALUE) && (cek <= Long.MAX_VALUE)){
+        //     System.out.println( cek +" can't be fitted anywhere");
+        // }
+
     }
+
+ 
 }
+
+ 
